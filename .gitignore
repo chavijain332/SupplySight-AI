@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.cache.sqlite
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Datasets - exclude generated and raw data
+Datasets/Raw Datasets/
+Datasets/Processed Datasets/
+Datasets/External Datasets/
+Datasets/Integrated Dataset/
+Datasets/Modeling Artifacts/
+
+# Generated model artifacts
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.npz
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Microsoft Office temporary files
+~$*
